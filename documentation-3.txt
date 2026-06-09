@@ -1,0 +1,88 @@
+===============================================
+   DATA STRUCTURES LIBRARY - DOCUMENTATION
+===============================================
+Intern ID  : CITS3437
+Name       : Aditya Singla
+Weeks      : 4 Weeks (3rd June - 1st July)
+Company    : CodTech IT Solutions
+===============================================
+
+1. PROJECT OVERVIEW
+-------------------
+Data Structures Library is a C-based console
+application implementing 4 fundamental data
+structures with all their operations through
+an interactive menu-driven interface.
+
+2. DATA STRUCTURES IMPLEMENTED
+--------------------------------
+
+A) LINKED LIST
+--------------
+- Dynamic data structure using pointers
+- Each node contains data and next pointer
+- Operations:
+  * Insert at Beginning - O(1)
+  * Insert at End - O(n)
+  * Delete - O(n)
+  * Search - O(n)
+  * Display - O(n)
+
+B) STACK (LIFO - Last In First Out)
+-------------------------------------
+- Array based implementation
+- Top pointer tracks top element
+- Operations:
+  * Push - O(1)
+  * Pop - O(1)
+  * Peek - O(1)
+  * Display - O(n)
+- Overflow and underflow handled
+
+C) QUEUE (FIFO - First In First Out)
+--------------------------------------
+- Array based implementation
+- Front and Rear pointers
+- Operations:
+  * Enqueue - O(1)
+  * Dequeue - O(1)
+  * Display - O(n)
+- Full and empty conditions handled
+
+D) BINARY SEARCH TREE (BST)
+-----------------------------
+- Dynamic tree using pointers
+- Left child < Parent < Right child
+- Operations:
+  * Insert - O(log n) average
+  * Search - O(log n) average
+  * Inorder Traversal - O(n)
+  * Preorder Traversal - O(n)
+  * Postorder Traversal - O(n)
+
+3. TRAVERSAL TYPES
+-------------------
+- Inorder (L->Root->R): Gives sorted output
+- Preorder (Root->L->R): Used for copying tree
+- Postorder (L->R->Root): Used for deletion
+
+4. CONCEPTS COVERED
+--------------------
+- Structures (struct)
+- Pointers
+- Dynamic Memory Allocation (malloc, free)
+- Recursion
+- Linked List
+- Stack and Queue
+- Binary Search Tree
+- Time Complexity
+
+5. HOW TO COMPILE AND RUN
+--------------------------
+Compile:  gcc data_structures.c -o data_structures
+Run:      ./data_structures (Linux/Mac)
+          data_structures.exe (Windows)
+
+===============================================
+         END OF DOCUMENTATION
+===============================================
